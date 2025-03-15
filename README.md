@@ -1,6 +1,6 @@
-# Smooth Little-Robust Training
+# Smoothness-aware Little Robust Training
 
-This is the code implementation of the Smooth Little-Robust Training method.
+This is the code implementation of the Smoothness-aware Little Robust Training method.
 
 ## Installation
 
@@ -26,7 +26,7 @@ python main_asam_imagenette_v2.py \
     --batch_size 64
 ```
 
-2. **Implement Smooth Little-Robust Training**:
+2. **Implement Smoothness-aware Little Robust Training**:
 ```bash
 python main_asam_imagenette_v2.py \
     --saved_dir ./imagenette_logs/check_points/ \
